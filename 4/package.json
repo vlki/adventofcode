@@ -1,0 +1,15 @@
+{
+  "name": "advent-of-code-vlki-4",
+  "version": "0.0.1",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "md5-jkmyers": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Vlcek <vlki@vlki.cz>",
+  "license": "ISC"
+}
