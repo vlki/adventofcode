@@ -7,6 +7,10 @@ var hash;
 var testString;
 
 do {
+    console.log('checking num: ' + i);
     testString = secretKey + i;
     hash = md5(testString);
-} while(hash.substr(0, 5) === '00000');
+    i++;
+} while(hash.substr(0, 6) !== '000000');
+
+console.log('md5 of "' + testString + '" is "' + hash + '"');
