@@ -48,14 +48,8 @@ function _compute(inputData) {
 
 
 function _hasAtLeastThreeVowels(word) {
-    // var numVowels = vowels.reduce(function(numVowels, vowel) {
-    //     return (word.indexOf(vowel) !== -1) ? numVowels + 1 : numVowels;
-    // }, 0);
-    //
-    // return numVowels >= 3;
     var vowelMatches = word.match(/[aeiou]/g);
-
-    return vowelMatches && vowelMatches.length >= 3;
+    return vowelMatches && vowelMatchescd.length >= 3;
 }
 
 function _hasLetterTwiceInRow(word) {
